@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: dao.Sql2oNewsDaoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE! - in dao.Sql2oNewsDaoTest
+dao.Sql2oNewsDaoTest  Time elapsed: 0.004 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "adwesh"
+	at dao.Sql2oNewsDaoTest.setUp(Sql2oNewsDaoTest.java:24)
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "adwesh"
+	at dao.Sql2oNewsDaoTest.setUp(Sql2oNewsDaoTest.java:24)
+
+dao.Sql2oNewsDaoTest  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.NullPointerException
+	at dao.Sql2oNewsDaoTest.shutDown(Sql2oNewsDaoTest.java:40)
+

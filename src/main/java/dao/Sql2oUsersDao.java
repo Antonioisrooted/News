@@ -68,4 +68,7 @@ public class Sql2oUsersDao implements UsersDao{
                     .executeUpdate();
         } catch (Sql2oException ex){ System.out.println(ex);}
     }
+
+    public void add(Users users) {
+    }
 }
