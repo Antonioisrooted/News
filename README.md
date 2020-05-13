@@ -11,7 +11,7 @@
   Java, HTML, CSS, API and Spark
 
 # Link to live site on heroku
-  
+   https://news047.herokuapp.com/ 
 
 # Copyright and license information
   MIT License
